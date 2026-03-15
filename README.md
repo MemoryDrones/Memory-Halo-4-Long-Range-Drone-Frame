@@ -1,81 +1,77 @@
+
+![Memory Halo 4 Frame](images/memory_halo_main.jpg)
+
 # Memory Halo 4 Long Range Drone Frame
-An open source 4 inch long range FPV drone, designed for those that prefer a stronger frame with less vibrations and no jello. This repository includes carbon fiber cutting files for CNC fabrication and STL files for 3D prints aswell as the hardware and documentation needed for one frame. 
+
+An open source 4 inch long range FPV drone, designed for those that prefer a stronger frame with less vibrations and no jello. This repository includes DXF carbon cutting files for CNC fabrication and STL files for 3D prints aswell as the hardware and documentation needed for one frame. 
 
 ## Features
 
-- 4" max propellor size
+- 4" propellor size
 - Deadcat configuration (props out of view)
+- 0-30 Degree camera angle, while staying protected
+- Plenty of room inside to fit everything
 - Stack mounting: 20x20mm M3 / 25.5x25.5mm M2 / 25.5x25.5mm M2 (angled 45°)
+- Vtx mounting: 20x20mm M2 / 25.5x25.5mm M2
 - Motor mounting: 9x9mm and 12x12mm
-- Camera support: 19/20mm: Analog, Walksnail, DJI O3 Pro, O4 Pro
+- Camera support: 19/20mm: Analog, Walksnail, DJI O3 Pro, O4, O4 Pro
 - Lightweight: ~200g dry with O4 Pro, ~170g analog
-- Supports single or double rear standoff (seperate middle & top plate design for it)
+- Supports single or double rear standoff design (seperate middle & top plate design for it)
 
 
 ## Hardware needed
-Minimum needed to build the frame, weight can slightly variate, this is just a guideline:
-| Part name       | Weight per piece (gr) | Quantity | Material |
-|-----------------|-----------------------|----------|----------|
-| Bottom plate        | 5.60    | 1     | Carbon T700     |
-| Middle plate        | 8.30    | 1     | Carbon T700     |
-| Top plate           | 8.30    | 1     | Carbon T700     |
-| Arms                | 4.60    | 4     | Carbon T700     |
-| Camera plates       | 2.10    | 2     | Carbon T700     |
-| M2 20mm standoffs   | 0.35    | 5     | Aluminium     |
-| M2 23mm standoff    | 0.4     | 1     | Aluminium     |
-| M2 14mm screws      | 0.45    | 4     | Aluminium     |
-| M2 9mm screws       | 0.45    | 11    | Aluminium     |
-| M2 pressnuts        | 0.45    | 4     | Aluminium     |
-| Battery pad         | 3       | 1     | Rubber     |
-| 2x 19/20mm camera mount  | 3     | 1     | TPU     |
+Minimum needed to build the frame. Weight can slightly vary, this is just a guideline.
 
-## Repository content
+| Part name | Quantity | Material | Weight per piece (g) |
+|-----------|----------|----------|----------------------|
+| Bottom plate | 1 | Carbon  | 5.60 |
+| Middle plate | 1 | Carbon  | 8.30 |
+| Top plate | 1 | Carbon  | 8.30 |
+| Arms | 4 | Carbon  | 4.60 |
+| Camera plates | 2 | Carbon  | 2.10 |
+| M2 20mm standoffs | 5 | Aluminium | 0.35 |
+| M2 23mm standoff | 1 | Aluminium | 0.40 |
+| M2 14mm screws | 4 | Aluminium | 0.65 |
+| M2 9mm screws | 11 | Aluminium | 0.45 |
+| M2 pressnuts | 4 | Aluminium | 0.45 |
+| Battery pad | 1 | Rubber | 3 |
+| 19/20mm camera mount | 1 | TPU | 2.2 |
 
-- STL Files for carbon cutting (single rear standoff and double)
-- STL files for the TPU 3D prints
-- DXF files for battery pad
-- Betaflight tune
-- Assembly (Mounting instructions)
-- Build pictures
+### Note: for the double rear standoff version, you need the following extra:
+| Part name | Quantity | Material | Weight per piece (g) |
+|-----------|----------|----------|----------------------|
+| M2 20mm standoffs | 1 | Aluminium | 0.35 |
+| M2 9mm screws | 2 | Aluminium | 0.45 |
 
-## Recommended Hardware
-### Budget Analog Long Range Build (~170g dry)
+Total minimum frame weight single rear standoff: ~ 60g
+Total minimum frame weight double rear standoff: ~ 63g
 
-#### Motors
-- 1404 2700–3000kv
-- Example: Skystars Koko 1404 3000kv
+## Repository Content
 
-#### Flight Controller / ESC
-- 25.5x25.5 AIO (30–40A)
-- Example: SpeedyBee F405 AIO 40A Bluejay
+This repository contains everything needed to manufacture and build the frame.
 
-#### FPV Camera
-- Analog nano camera (19mm mount)
-- Cadxx Ratel 2
+- **[/carbon](carbon/)** 
+  DXF files for CNC cutting the carbon fiber plates.  
+  Includes both **single rear standoff** and **double rear standoff** frame variants.
 
-#### VTX
-- Analog 20x20 VTX
-- Rush tank ultimate mini VTX
+- **[/3d-prints](3d-prints/)**  
+  STL files for TPU printed components such as camera mounts, gps and antenna mounts.
 
-#### Receiver
-- ExpressLRS  receiver
-- Example: Happymodel EP1 Dual 2.4gHz
+- **[/battery-pad](battery-pad/)**  
+  DXF file for laser cutting the battery pad. 2 variations. 
 
-#### Battery
-- 4S 2500–5000mAh Li-ion
-- Example GNB 2500mAh 4S Li-ion / Racepow 5000mAh 4S Li-ion 
-#### Propellers
-- 4" 2 bladed propellor T shaft 1.5mm
-- HQProp Durable T4x2.5 PC
+- **[/betaflight-tune](betaflight-tune/)**  
+  Betaflight tune specifically for the frame, to get as clean gyro data as possible.
 
-#### Buzzer
-- Self powered buzzer
-- Example: VIFLY Finder Mini
+- **[/docs](docs/)** 
+  Documentation including:
+  - Assembly instructions
+  - Hardware requirements
+  - Example build configurations
 
-#### Antenna 
-- Needed: MMCX 90° angled to SMA straight Cable
-- Example: Singularity 5.8 - SMA LONG Antenna - RHCP By TrueRC
-
+- **[/images](images/)** 
+  Photos and diagrams of the frame and example builds.
+  Full build examples are available in `/build examples.md`.
 
 ## License
 
