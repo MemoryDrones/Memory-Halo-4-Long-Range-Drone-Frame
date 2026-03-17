@@ -1,42 +1,42 @@
-## These folders contain the carbon cutting files for the Memory Halo 4 frame.
+## Carbon Fiber Cutting Files
 
-Material: Carbon Fiber (recommended T700)
+**Material:** Carbon Fiber (recommended T700)  
+**Tolerance:** ±0.05mm ideally
 
-(Optional) Brace that goes inbetween the bottom and middle plate can either be 2mm or 4mm, to hold arms extra securely
+---
 
-## Frame Variants:
+## All Frames - Shared Parts
 
-Single rear standoff
-- Uses top + middle plate from "single rear standoff"
+| Part | Quantity | Thickness |
+|------|-----|-----------|
+| memory_halo_arm_4mm.dxf | 4 | 4mm |
+| memory_halo_camera_plate_2mm.dxf | 2 | 2mm |
+| memory_halo_bottom_plate_2mm.dxf | 1 | 2mm |
+| memory_halo_brace_2mm.dxf* | 1 | 2mm |
 
-Double rear standoff
-- Uses top + middle plate from "double rear standoff"
+*Optional - use for extra arm security
 
-All other parts are identical and located in the "shared parts" folder. Each DXF file represents one plate to be cut from carbon fiber:
+---
 
-## Shared Parts (used in both frame versions)
+## Frame Variants
 
-| Part Name | Quantity Needed |
-|-----|------|
-| memory_halo_arm_4mm.dxf | 4 |
-| memroy_halo_camera_plate_2mm.dxf | 2 |
-| memory_halo_bottom_plate_2mm.dxf | 1 |
-| (Optional) memory_halo_brace_2mm.dxf | 1 |
+The frame has been made with two variants, one with just a single standoff at the rear, and the second with double standoff. The single standoff saves around 4 grams, but sacrifices a bit on durability and how easy it is to mount parts at the rear.
 
-## Single Rear Standoff Version
+#### One frame consists of all files in the shared parts folder + & top/mid plate from one variant
 
-Use DXF files from `single rear standoff`.
+### Single Rear Standoff vs Double Rear Standoff
+![Rear standoff variants](../images/memory_halo_rear_standoff_variants.jpg)
 
-| Part | Quantity Needed |
-|-----|------|
-| memory_halo_mid_plate_single_standoff_2mm.dxf | 1 |
-| memory_halo_top_plate_single_standoff_2mm.dxf | 1 |
+### Single Rear Standoff:
 
-## Double Rear Standoff Version
+| Part | Quantity | Thickness |
+|------|-----|-----------|
+| memory_halo_mid_plate_single_standoff_2mm.dxf | 1 | 2mm |
+| memory_halo_top_plate_single_standoff_2mm.dxf | 1 | 2mm |
 
-Use DXF files from `double rear standoff`.
+### Double Rear Standoff:
 
-| Part | Quantity Needed |
-|-----|------|
-| memory_halo_mid_plate_double_standoff_2mm.dxf | 1 |
-| memory_halo_top_plate_double_standoff_2mm.dxf | 1 |
+| Part | Quantity | Thickness |
+|------|-----|-----------|
+| memory_halo_mid_plate_double_standoff_2mm.dxf | 1 | 2mm |
+| memory_halo_top_plate_double_standoff_2mm.dxf | 1 | 2mm |

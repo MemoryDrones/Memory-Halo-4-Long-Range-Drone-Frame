@@ -7,10 +7,10 @@ An open source 4 inch long range FPV drone, designed for those that prefer a str
 
 ## Features
 
-- 4" propellor size
-- Deadcat configuration (props out of view)
-- 0-30 Degree camera angle, while staying protected
-- Plenty of room inside to fit everything
+- 4" Propellor size
+- Deadcat configuration
+- 0-30 Degree camera angle, nothing obstructs the view, but the camera stays 100% protected!
+- Plenty of room inside to fit everything (buzzer, capacitor,...)
 - Stack mounting: 20x20mm M3 / 25.5x25.5mm M2 / 25.5x25.5mm M2 (angled 45°)
 - Vtx mounting: 20x20mm M2 / 25.5x25.5mm M2
 - Motor mounting: 9x9mm and 12x12mm
@@ -22,29 +22,30 @@ An open source 4 inch long range FPV drone, designed for those that prefer a str
 ## Hardware needed
 Minimum needed to build the frame. Weight can slightly vary, this is just a guideline.
 
-| Part name | Quantity | Material | Weight per piece (g) |
-|-----------|----------|----------|----------------------|
-| Bottom plate | 1 | Carbon  | 5.60 |
-| Middle plate | 1 | Carbon  | 8.30 |
-| Top plate | 1 | Carbon  | 8.30 |
-| Arms | 4 | Carbon  | 4.60 |
-| Camera plates | 2 | Carbon  | 2.10 |
-| M2 20mm standoffs | 5 | Aluminium | 0.35 |
-| M2 23mm standoff | 1 | Aluminium | 0.40 |
-| M2 14mm screws | 4 | Aluminium | 0.65 |
-| M2 9mm screws | 11 | Aluminium | 0.45 |
-| M2 pressnuts | 4 | Aluminium | 0.45 |
-| Battery pad | 1 | Rubber | 3 |
-| 19/20mm camera mount | 1 | TPU | 2.2 |
+We have used 20mm standoffs of 3.5mm in diameter, and the 23mm length has a diameter of 4mm. For any other size, it is possible the TPU supports will have to be slightly adjusted.
 
-### Note: for the double rear standoff version, you need the following extra:
-| Part name | Quantity | Material | Weight per piece (g) |
-|-----------|----------|----------|----------------------|
-| M2 20mm standoffs | 1 | Aluminium | 0.35 |
-| M2 9mm screws | 2 | Aluminium | 0.45 |
+| Qty | Part name | Details | Weight per piece (g) |
+|-----|-----------|---------|----------------------|
+| 1 | Bottom plate | Carbon fiber plate structure | 5.60 |
+| 1 | Middle plate | Carbon fiber plate structure | 8.30 |
+| 1 | Top plate | Carbon fiber plate structure | 8.30 |
+| 4 | Arms | Carbon fiber motor arms | 4.60 |
+| 2 | Camera plates | Carbon fiber camera mounts | 2.10 |
+| 5 | M2 20mm standoffs | Spacers for plate separation | 0.35 |
+| 1 | M2 23mm standoff | Spacer for camera plates | 0.40 |
+| 4 | M2 14mm screws | goes in standoffs | 0.65 |
+| 11 | M2 9mm screws | General fasteners | 0.45 |
+| 4 | M2 pressnuts | Thread inserts | 0.45 |
+| 2 | Battery pad | Sticky battery pad | 4 |
+| 1 | 19/20mm camera mount | TPU camera brackets | 2.2 |
 
-Total minimum frame weight single rear standoff: ~ 60g
-Total minimum frame weight double rear standoff: ~ 63g
+### NOTE: for the "Double rear standoff" version, you need the following extra:
+| Qty | Part name | Details | Weight per piece (g) |
+|-----|-----------|---------|----------------------|
+| 1 | M2 20mm standoffs | Spacer for plate separation | 0.35 |
+| 2 | M2 9mm screws | General fasteners | 0.45 |
+
+Total minimum frame weight: ~ 65g
 
 ## Repository Content
 
@@ -52,26 +53,26 @@ This repository contains everything needed to manufacture and build the frame.
 
 - **[/carbon](carbon/)** 
   DXF files for CNC cutting the carbon fiber plates.  
-  Includes both **single rear standoff** and **double rear standoff** frame variants.
+  Includes both **single rear standoff** and **double rear standoff** frame variants (to avoid confusion, please take a look at the readme there).
 
 - **[/3d-prints](3d-prints/)**  
   STL files for TPU printed components such as camera mounts, gps and antenna mounts.
 
 - **[/battery-pad](battery-pad/)**  
-  DXF file for laser cutting the battery pad. 2 variations. 
+  DXF file for laser cutting the battery pad, comes in 2 variations. 
 
 - **[/betaflight-tune](betaflight-tune/)**  
-  Betaflight tune specifically for the frame, to get as clean gyro data as possible.
+  Betaflight tune specifically for the frame, to get as clean gyro data as possible. indludes screenshots and the cli txt file
 
 - **[/docs](docs/)** 
   Documentation including:
   - Assembly instructions
   - Hardware requirements
-  - Example build configurations
+  - [Example build configurations](docs/build-examples.md)
 
 - **[/images](images/)** 
   Photos and diagrams of the frame and example builds.
-  Full build examples are available in `/build examples.md`.
+  Full build examples are available in `/build-examples.md`.
 
 ## License
 
