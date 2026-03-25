@@ -10,13 +10,10 @@
 | Thickness | 3mm |
 
 ### Variants
-Choose one variant and use it for both pieces. Both fit the same top plate:
 
-**Variant 1:**
+Choose one variant and use it for both pieces. Both fit the same top plate.
 
-![Battery pad variant 1](../images/memory_halo_battery_pad_1.jpg)
-
-**Variant 2:**
-
-![Battery pad variant 2](../images/memory_halo_battery_pad_2.jpg)
+| Variant 1 | Variant 2 |
+|-----------|-----------|
+| ![Battery pad variant 1](../images/memory_halo_battery_pad_1.jpg) | ![Battery pad variant 2](../images/memory_halo_battery_pad_2.jpg) |
 

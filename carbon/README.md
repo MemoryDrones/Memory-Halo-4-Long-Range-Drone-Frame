@@ -5,7 +5,7 @@
 
 ---
 
-## All Frames - Shared Parts
+## Frame - Shared Parts
 
 | Part | Quantity | Thickness |
 |------|-----|-----------|
@@ -14,7 +14,7 @@
 | memory_halo_bottom_plate_2mm.dxf | 1 | 2mm |
 | memory_halo_brace_2mm.dxf* | 1 | 2mm |
 
-*Optional - use for extra arm security
+*Optional, if you really want the extra strength
 
 ---
 

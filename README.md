@@ -22,19 +22,34 @@ An open source 4 inch long range FPV drone, designed for those that prefer a str
 ## Hardware needed
 Minimum needed to build the frame. Weight can slightly vary, this is just a guideline.
 
-We have used 20mm standoffs of 3.5mm in diameter, and the 23mm length has a diameter of 4mm. For any other size, it is possible the TPU supports will have to be slightly adjusted.
+We have used 20mm standoffs with a diameter of 3.5mm, and a 23mm standoff with a diameter of 4mm. For any other size, it is possible the TPU files will have to be slightly adjusted.
 
+The frame also uses M2 pressnuts to secure the arms properly in the middle plate.
+
+### Carbon
 | Qty | Part name | Details | Weight per piece (g) |
 |-----|-----------|---------|----------------------|
-| 1 | Bottom plate | Carbon fiber plate structure | 5.60 |
-| 1 | Middle plate | Carbon fiber plate structure | 8.30 |
-| 1 | Top plate | Carbon fiber plate structure | 8.30 |
-| 4 | Arms | Carbon fiber motor arms | 4.60 |
-| 2 | Camera plates | Carbon fiber camera mounts | 2.10 |
-| 5 | M2 20mm standoffs | Spacers for plate separation | 0.35 |
+| 1 | Bottom plate | Main frame | 5.60 |
+| 1 | Middle plate | Main frame | 8.30 |
+| 1 | Top plate (single standoff or double standoff version| Main frame | 8.30 |
+| 4 | Arms | Main frame arms | 4.60 |
+| 2 | Camera plates | Mounts the camera | 2.10 |
+
+### Standoffs
+| Qty | Part name | Details | Weight per piece (g) |
+|-----|-----------|---------|----------------------|
+| 5 | M2 20mm standoffs | Main spacers | 0.35 |
 | 1 | M2 23mm standoff | Spacer for camera plates | 0.40 |
-| 4 | M2 14mm screws | goes in standoffs | 0.65 |
+
+### Screws
+| Qty | Part name | Details | Weight per piece (g) |
+|-----|-----------|---------|----------------------|
+| 4 | M2 14mm screws | Goes through mid plate in standoffs | 0.65 |
 | 11 | M2 9mm screws | General fasteners | 0.45 |
+
+### Others
+| Qty | Part name | Details | Weight per piece (g) |
+|-----|-----------|---------|----------------------|
 | 4 | M2 pressnuts | Thread inserts | 0.45 |
 | 2 | Battery pad | Sticky battery pad | 4 |
 | 1 | 19/20mm camera mount | TPU camera brackets | 2.2 |
@@ -67,12 +82,17 @@ This repository contains everything needed to manufacture and build the frame.
 - **[/docs](docs/)** 
   Documentation including:
   - Assembly instructions
-  - Hardware requirements
+  [Assembly instructions](docs/assembly-instructions.md)
   - [Example build configurations](docs/build-examples.md)
 
 - **[/images](images/)** 
-  Photos and diagrams of the frame and example builds.
-  Full build examples are available in `/build-examples.md`.
+  Photos and diagrams of the frame are found here.
+
+## Frame assembly
+
+![Memory Halo 4 Frame Assembly Step 1-3](images/memory_halo_assembly_1_3.png)
+
+![Memory Halo 4 Frame Assembly Step 4-6](images/memory_halo_assembly_4_6.png)
 
 ## License
 
