@@ -15,14 +15,14 @@ An open source 4 inch long range FPV drone, designed for those that prefer a str
 - Vtx mounting: 20x20mm M2 / 25.5x25.5mm M2
 - Motor mounting: 9x9mm and 12x12mm
 - Camera support: 19/20mm: Analog, Walksnail, DJI O3 Pro, O4, O4 Pro
-- Lightweight: ~200g dry with O4 Pro, ~170g analog
+- Lightweight: ~205g dry with O4 Pro, ~175g analog
 - Supports single or double rear standoff design (seperate middle & top plate design for it)
 
 
 ## Hardware needed
 Minimum needed to build the frame. Weight can slightly vary, this is just a guideline.
 
-We have used 20mm standoffs with a diameter of 3.5mm, and a 23mm standoff with a diameter of 4mm. For any other size, it is possible the TPU files will have to be slightly adjusted.
+We have used 20mm standoffs with a diameter of 3.5mm, and a 23mm standoff (for camera plate) with a diameter of 4mm. For any other size, it is possible the TPU files will have to be slightly adjusted.
 
 The frame also uses M2 pressnuts to secure the arms properly in the middle plate.
 
@@ -30,8 +30,8 @@ The frame also uses M2 pressnuts to secure the arms properly in the middle plate
 | Qty | Part name | Details | Weight per piece (g) |
 |-----|-----------|---------|----------------------|
 | 1 | Bottom plate | Main frame | 5.60 |
-| 1 | Middle plate | Main frame | 8.30 |
-| 1 | Top plate (single standoff or double standoff version| Main frame | 8.30 |
+| 1 | Middle plate (single standoff or double standoff version) | Main frame | 8.30 / 9.20 |
+| 1 | Top plate (single standoff or double standoff version)| Main frame | 8.30 / 9.20 |
 | 4 | Arms | Main frame arms | 4.60 |
 | 2 | Camera plates | Mounts the camera | 2.10 |
 
@@ -44,14 +44,14 @@ The frame also uses M2 pressnuts to secure the arms properly in the middle plate
 ### Screws
 | Qty | Part name | Details | Weight per piece (g) |
 |-----|-----------|---------|----------------------|
-| 4 | M2 14mm screws | Goes through mid plate in standoffs | 0.65 |
-| 11 | M2 9mm screws | General fasteners | 0.45 |
+| 4 | M2 14mm screws | Goes through mid plate into standoffs | 0.65 |
+| 11 | M2 9mm screws | For everything else | 0.45 |
 
 ### Others
 | Qty | Part name | Details | Weight per piece (g) |
 |-----|-----------|---------|----------------------|
-| 4 | M2 pressnuts | Thread inserts | 0.45 |
-| 2 | Battery pad | Sticky battery pad | 4 |
+| 4 | M2 pressnuts | Thread inserts for mid plate | 0.45 |
+| 2 | Battery pad | Sticky battery pad | 3 |
 | 1 | 19/20mm camera mount | TPU camera brackets | 2.2 |
 
 ### NOTE: for the "Double rear standoff" version, you need the following extra:
@@ -64,7 +64,7 @@ Total minimum frame weight: ~ 65g
 
 ## Repository Content
 
-This repository contains everything needed to manufacture and build the frame.
+This repository contains everything needed to cnc cut and build the frame:
 
 - **[/carbon](carbon/)** 
   DXF files for CNC cutting the carbon fiber plates.  
@@ -93,6 +93,12 @@ This repository contains everything needed to manufacture and build the frame.
 ![Memory Halo 4 Frame Assembly Step 1-3](images/memory_halo_assembly_1_3.png)
 
 ![Memory Halo 4 Frame Assembly Step 4-6](images/memory_halo_assembly_4_6.png)
+
+## Photographs of the frame:
+
+![Memory Halo 4 Gran Canaria 1](images/memory_halo_gran_canaria_1.jpg)
+
+![Memory Halo 4 Gran Canaria 2](images/memory_halo_gran_canaria_2.jpg)
 
 ## License
 
