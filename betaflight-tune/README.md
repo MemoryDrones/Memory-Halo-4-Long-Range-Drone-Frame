@@ -2,7 +2,7 @@
 
 This Betaflight tune is optimized for the Memory Halo 4 frame
 
-Tested on **Betaflight 4.5**.
+Tested on **Betaflight 4.5**
 
 To apply the CLI .txt file:
 

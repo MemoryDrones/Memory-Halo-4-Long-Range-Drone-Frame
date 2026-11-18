@@ -3,7 +3,7 @@
 
 # Memory Halo 4 Long Range Drone Frame
 
-An open source 4 inch long range FPV drone, designed for those that prefer a stronger frame with less vibrations and no jello. This repository includes DXF carbon cutting files for CNC fabrication and STL files for 3D prints aswell as the hardware and documentation needed for one frame. 
+An open source 4 inch long range FPV drone, designed for those that prefer a more durable (heavier) frame without jello. This repository includes DXF carbon cutting files for CNC fabrication and STL files for 3D prints aswell as the hardware and documentation needed for a completed frame. 
 
 ## Features
 
@@ -15,23 +15,23 @@ An open source 4 inch long range FPV drone, designed for those that prefer a str
 - Vtx mounting: 20x20mm M2 / 25.5x25.5mm M2
 - Motor mounting: 9x9mm and 12x12mm
 - Camera support: 19/20mm: Analog, Walksnail, DJI O3 Pro, O4, O4 Pro
-- Lightweight: ~205g dry with O4 Pro, ~175g analog
+- Weight: ~205g dry with O4 Pro, ~185g analog
 - Supports single or double rear standoff design (seperate middle & top plate design for it)
 
 
 ## Hardware needed
 Minimum needed to build the frame. Weight can slightly vary, this is just a guideline.
 
-We have used 20mm standoffs with a diameter of 3.5mm, and a 23mm standoff (for camera plate) with a diameter of 4mm. For any other size, it is possible the TPU files will have to be slightly adjusted.
+We have used 20mm standoffs with a diameter of 3.5mm, and a 23mm standoff (for camera plates) with a diameter of 4mm. For any other size, it is possible the TPU files will have to be slightly adjusted.
 
-The frame also uses M2 pressnuts to secure the arms properly in the middle plate.
+The frame also uses M2 pressnuts to secure the arms properly in the middle plate with a diameter that goes in the mid plate of 4.10mm.
 
 ### Carbon
 | Qty | Part name | Details | Weight per piece (g) |
 |-----|-----------|---------|----------------------|
 | 1 | Bottom plate | Main frame | 5.60 |
-| 1 | Middle plate (single standoff or double standoff version) | Main frame | 8.30 / 9.20 |
-| 1 | Top plate (single standoff or double standoff version)| Main frame | 8.30 / 9.20 |
+| 1 | Middle plate (choose single standoff or double standoff) | Main frame | 8.30 / 9.20 |
+| 1 | Top plate (choose single standoff or double standoff)| Main frame | 8.30 / 9.20 |
 | 4 | Arms | Main frame arms | 4.60 |
 | 2 | Camera plates | Mounts the camera | 2.10 |
 
@@ -60,7 +60,7 @@ The frame also uses M2 pressnuts to secure the arms properly in the middle plate
 | 1 | M2 20mm standoffs | Spacer for plate separation | 0.35 |
 | 2 | M2 9mm screws | General fasteners | 0.45 |
 
-Total minimum frame weight: ~ 65g
+Total minimum empty frame weight: ~ 65g
 
 ## Repository Content
 
@@ -71,10 +71,10 @@ This repository contains everything needed to cnc cut and build the frame:
   Includes both **single rear standoff** and **double rear standoff** frame variants (to avoid confusion, please take a look at the readme there).
 
 - **[/3d-prints](3d-prints/)**  
-  STL files for TPU printed components such as camera mounts, gps and antenna mounts.
+  STL files for TPU printed components such as camera mounts, gps, antenna mounts....
 
 - **[/battery-pad](battery-pad/)**  
-  DXF file for laser cutting the battery pad, comes in 2 variations. 
+  DXF file for laser cutting the battery pad, 2 variations. 
 
 - **[/betaflight-tune](betaflight-tune/)**  
   Betaflight tune specifically for the frame, to get as clean gyro data as possible. indludes screenshots and the cli txt file

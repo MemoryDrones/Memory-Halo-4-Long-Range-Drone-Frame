@@ -6,7 +6,7 @@
 | Property | Value |
 |----------|-------|
 | Quantity | 2 pieces per frame |
-| Material | Sticky rubber / foam |
+| Material | Sticky rubber |
 | Thickness | 3mm |
 
 ### Variants
