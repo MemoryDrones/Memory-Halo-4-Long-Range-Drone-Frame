@@ -14,4 +14,4 @@ To apply the CLI .txt file:
 
 Your flight controller will reboot with the tune applied.
 
-In case you want to double check if everything went correctly, or only adjust a few parameters, take a look at the [tune-screenshots](/tune-screenshots) folder
+In case you want to double check if everything went correctly, or only adjust a few parameters, take a look at the [tune-screenshots](tune-screenshots/) folder

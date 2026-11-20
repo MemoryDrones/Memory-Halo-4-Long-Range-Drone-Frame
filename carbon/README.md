@@ -3,6 +3,8 @@
 **Material:** Carbon Fiber (recommended T700)  
 **Tolerance:** ±0.05mm ideally
 
+Each part comes as .dxf (CNC cutting), .step (CAD) and .stl (3D preview / desk model), with the same name in the same folder.
+
 ---
 
 ## Frame - Shared Parts

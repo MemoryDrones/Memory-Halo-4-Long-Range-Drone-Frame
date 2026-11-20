@@ -3,11 +3,11 @@
 
 # Memory Halo 4 Long Range Drone Frame
 
-An open source 4 inch long range FPV drone, designed for those that prefer a more durable (heavier) frame without jello. This repository includes DXF carbon cutting files for CNC fabrication and STL files for 3D prints aswell as the hardware and documentation needed for a completed frame. 
+An open source 4 inch long range FPV drone, designed for those that prefer a more durable (heavier) frame without jello. This repository includes DXF carbon cutting files for CNC fabrication and STL files for 3D prints as well as the hardware and documentation needed for a completed frame. 
 
 ## Features
 
-- 4" Propellor size
+- 4" Propeller size
 - Deadcat configuration
 - 0-30 Degree camera angle, nothing obstructs the view, but the camera stays 100% protected!
 - Plenty of room inside to fit everything (buzzer, capacitor,...)
@@ -16,11 +16,13 @@ An open source 4 inch long range FPV drone, designed for those that prefer a mor
 - Motor mounting: 9x9mm and 12x12mm
 - Camera support: 19/20mm: Analog, Walksnail, DJI O3 Pro, O4, O4 Pro
 - Weight: ~205g dry with O4 Pro, ~185g analog
-- Supports single or double rear standoff design (seperate middle & top plate design for it)
+- Supports single or double rear standoff design (separate middle & top plate design for it)
 
 
 ## Hardware needed
 Minimum needed to build the frame. Weight can slightly vary, this is just a guideline.
+
+Also available as a spreadsheet: [bom.xlsx](bom.xlsx).
 
 We have used 20mm standoffs with a diameter of 3.5mm, and a 23mm standoff (for camera plates) with a diameter of 4mm. For any other size, it is possible the TPU files will have to be slightly adjusted.
 
@@ -67,7 +69,7 @@ Total minimum empty frame weight: ~ 65g
 This repository contains everything needed to cnc cut and build the frame:
 
 - **[/carbon](carbon/)** 
-  DXF files for CNC cutting the carbon fiber plates.  
+  DXF files for CNC cutting the carbon fiber plates, plus STEP and STL models of each plate.  
   Includes both **single rear standoff** and **double rear standoff** frame variants (to avoid confusion, please take a look at the readme there).
 
 - **[/3d-prints](3d-prints/)**  
@@ -77,13 +79,10 @@ This repository contains everything needed to cnc cut and build the frame:
   DXF file for laser cutting the battery pad, 2 variations. 
 
 - **[/betaflight-tune](betaflight-tune/)**  
-  Betaflight tune specifically for the frame, to get as clean gyro data as possible. indludes screenshots and the cli txt file
+  Betaflight tune specifically for the frame, to get as clean gyro data as possible. Includes screenshots and the CLI .txt file.
 
-- **[/docs](docs/)** 
-  Documentation including:
-  - Assembly instructions
-  [Assembly instructions](docs/assembly-instructions.md)
-  - [Example build configurations](docs/build-examples.md)
+- **[/docs](docs/)**  
+  [Example build configurations](docs/build-examples.md). Assembly steps are in [Frame assembly](#frame-assembly) below.
 
 - **[/images](images/)** 
   Photos and diagrams of the frame are found here.
